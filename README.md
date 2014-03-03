@@ -27,8 +27,13 @@ Once all files are uploaded, trigger a Chef run on all clients:
     
 More details can be found at http://pantryops.org/chef
 
+## Documentation
+
+The Documentation for Pantry is available at http://pantryops.org/chef and the RDoc is served up at [rdoc.info/pantry](http://rubydoc.info/github/pantry/pantry-chef/master/frames).
+
 ## Project Details
 
+* Built and Maintained by [Collective Idea](http://collectiveidea.com)
 * Hosted on Github [pantry/pantry-chef](https://github.com/pantry/pantry-chef)
 * File bug reports on the [Issue tracker](https://github.com/pantry/pantry-chef/issues)
 
