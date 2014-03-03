@@ -44,6 +44,6 @@ The Documentation for Pantry is available at http://pantryops.org/chef and the R
 * All Pull Requests must contain tests
 * Pull Request tests must pass before being accepted
 
-## Licence
+## License
 
 Pantry Chef is distributed under the MIT License. See LICENSE for more details.
