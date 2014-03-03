@@ -29,7 +29,7 @@ More details can be found at http://pantryops.org/chef
 
 ## Documentation
 
-The Documentation for Pantry is available at http://pantryops.org/chef and the RDoc is served up at [rdoc.info/pantry](http://rubydoc.info/github/pantry/pantry-chef/master/frames).
+The Documentation for Pantry is available at http://pantryops.org/chef and the RDoc is served up at [rdoc.info/pantry-chef](http://rubydoc.info/github/pantry/pantry-chef/master/frames).
 
 ## Project Details
 
@@ -39,9 +39,9 @@ The Documentation for Pantry is available at http://pantryops.org/chef and the R
 
 ## Contributing
 
-* Fork this repository on github
-* Make your changes and send us a pull request
-* All pull requests must contain tests
+* Fork this repository on Github
+* Make your changes and send us a Pull Request
+* All Pull Requests must contain tests
 * Pull Request tests must pass before being accepted
 
 ## Licence
