@@ -13,6 +13,9 @@ describe "Uploading cookbooks to the server" do
       identity: "cli1"
     ).run
 
+    # The receiver may still be writing and moving the cookbook into place
+    sleep 1
+
     assert File.exists?(Pantry.root.join("chef", "cookbooks", "mini", "metadata.rb")),
       "The mini cookbook was not uploaded to the server properly"
     assert File.exists?(Pantry.root.join("chef", "cookbook-cache", "mini.tgz")),
