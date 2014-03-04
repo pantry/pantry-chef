@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "pantry", :path => "../core"
+gem "pantry", :github => "pantry/pantry"
 
 gemspec
 
