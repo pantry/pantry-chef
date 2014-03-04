@@ -1,6 +1,6 @@
 # Pantry Chef
 
-[![Code Climate](https://codeclimate.com/github/pantry/pantry-chef.png)](https://codeclimate.com/github/pantry/pantry-chef)
+[![Build Status](https://travis-ci.org/pantry/pantry-chef.png?branch=master)](https://travis-ci.org/pantry/pantry-chef) [![Code Climate](https://codeclimate.com/github/pantry/pantry-chef.png)](https://codeclimate.com/github/pantry/pantry-chef)
 
 Pantry Chef is a plugin for [Pantry](pantryops.org) to host and serve up Chef data (cookbooks, environments, roles, and data bags). Chef is run on Clients using chef-solo.
 
