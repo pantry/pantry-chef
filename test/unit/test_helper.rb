@@ -1,4 +1,5 @@
 require 'pantry/test/unit'
+require 'pantry/chef'
 require 'mocha/mini_test'
 
 Pantry.logger.disable!

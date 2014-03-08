@@ -1,4 +1,5 @@
 require 'pantry/test/acceptance'
+require 'pantry/chef'
 
 Pantry.logger.disable!
 #Pantry.config.log_level = :debug
