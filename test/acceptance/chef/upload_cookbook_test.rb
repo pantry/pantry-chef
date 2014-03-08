@@ -2,7 +2,6 @@ require 'acceptance/test_helper'
 require 'fileutils'
 
 describe "Uploading cookbooks to the server" do
-
   mock_ui!
 
   it "finds the current cookbook and uploads it" do

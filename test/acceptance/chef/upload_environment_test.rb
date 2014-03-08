@@ -2,6 +2,7 @@ require 'acceptance/test_helper'
 require 'fileutils'
 
 describe "Uploading environment definitions to the server" do
+  mock_ui!
 
   it "uploads the given file as a Chef environment" do
     set_up_environment(ports_start_at: 14000)

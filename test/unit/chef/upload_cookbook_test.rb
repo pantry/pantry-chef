@@ -90,7 +90,7 @@ describe Pantry::Chef::UploadCookbook do
 
   end
 
-  describe "#receive_response" do
+  describe "#receive_server_response" do
 
     let(:command) { build_command("mini") }
 
@@ -108,7 +108,7 @@ describe Pantry::Chef::UploadCookbook do
       response_message.body << "true"
       response_message.body << "abc123"
 
-      command.receive_response(response_message)
+      command.receive_server_response(response_message)
     end
 
     it "fails out with a message and cleans up if the server response with an error" do
@@ -122,7 +122,7 @@ describe Pantry::Chef::UploadCookbook do
       response_message << "false"
       response_message << "Unable to Upload Reason"
 
-      command.receive_response(response_message)
+      command.receive_server_response(response_message)
 
       assert_match /ERROR: Unable to Upload Reason/, stdout
     end

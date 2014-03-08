@@ -30,7 +30,7 @@ describe Pantry::Chef::ListCookbooks do
     end
   end
 
-  describe "#receive_response" do
+  describe "#receive_server_response" do
     mock_ui!
 
     it "displays the list alphabetical order" do
@@ -40,7 +40,7 @@ describe Pantry::Chef::ListCookbooks do
       message << ["mini", 0, "deadbeef"]
 
       command = Pantry::Chef::ListCookbooks.new
-      command.receive_response(message)
+      command.receive_server_response(message)
 
       assert_equal "mini\npantry\nruby\n", stdout
     end
