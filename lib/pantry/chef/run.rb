@@ -20,6 +20,7 @@ module Pantry
       def receive_client_response(response)
         Pantry.ui.say("Chef on #{response.from} finished")
         Pantry.ui.say(response.body[5][0])
+        Pantry.ui.say(response.body[5][1])
         Pantry.ui.say("")
       end
 
